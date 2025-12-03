@@ -1,0 +1,15 @@
+# Ignore environment variables
+my_agent/.env
+
+# Ignore all .env files anywhere
+*.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore node modules (if JS is used)
+node_modules/
+
+# Ignore macOS system files
+.DS_Store
